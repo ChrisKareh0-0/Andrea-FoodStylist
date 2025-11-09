@@ -97,7 +97,7 @@ export default function ServicesSection() {
               <a href="#" className="stretched-link">
                 <h3>Social Media Content</h3>
               </a>
-              <p>Eye-catching food styling for social media platforms. Creating shareable content that drives engagement and showcases your brand's culinary excellence.</p>
+              <p>Eye-catching food styling for social media platforms. Creating shareable content that drives engagement and showcases your brand&apos;s culinary excellence.</p>
               <a href="#" className="stretched-link"></a>
             </div>
           </div>

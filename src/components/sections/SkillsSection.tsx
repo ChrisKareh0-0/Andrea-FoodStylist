@@ -13,21 +13,21 @@ export default function SkillsSection() {
             <div className="progress">
               <span className="skill"><span>Food Styling</span> <i className="val">100%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill"><span>Food Photography</span> <i className="val">95%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill"><span>Prop Selection</span> <i className="val">90%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
           </div>
@@ -36,21 +36,21 @@ export default function SkillsSection() {
             <div className="progress">
               <span className="skill"><span>Lighting Techniques</span> <i className="val">85%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill"><span>Color Theory</span> <i className="val">90%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill"><span>Adobe Creative Suite</span> <i className="val">80%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
               </div>
             </div>
           </div>

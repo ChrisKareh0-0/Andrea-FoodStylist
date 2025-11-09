@@ -151,7 +151,7 @@ export default function CategoriesManagement() {
             </button>
           </form>
           <p className="text-xs text-gray-500 mt-2">
-            Category ID will be auto-generated from the name (e.g., "Ice Cream" → "ice-cream")
+            Category ID will be auto-generated from the name (e.g., &quot;Ice Cream&quot; → &quot;ice-cream&quot;)
           </p>
         </div>
 
@@ -194,7 +194,7 @@ export default function CategoriesManagement() {
           <h3 className="text-sm font-semibold text-blue-900 mb-2">ℹ️ Important Notes:</h3>
           <ul className="text-sm text-blue-800 space-y-1 list-disc list-inside">
             <li>Categories act as keywords/tags for filtering clients</li>
-            <li>Deleting a category won't remove it from existing clients</li>
+            <li>Deleting a category won&apos;t remove it from existing clients</li>
             <li>New categories are immediately available for selection when adding/editing clients</li>
             <li>Category IDs are automatically generated and cannot be changed</li>
           </ul>

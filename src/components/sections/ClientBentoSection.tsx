@@ -24,6 +24,12 @@ interface Client {
   gallery: string[];
 }
 
+interface FeaturedClient extends Client {
+  icon: React.ComponentType<{ className?: string }>;
+  image: string;
+  className: string;
+}
+
 // Available images for gallery
 const availableImages = [
   "/assets/img/masonry-portfolio/masonry-portfolio-1.jpg",
@@ -48,7 +54,7 @@ const gridClasses = [
 
 export default function ClientBentoSection() {
   const [clients, setClients] = useState<Client[]>([]);
-  const [featuredClients, setFeaturedClients] = useState<any[]>([]);
+  const [featuredClients, setFeaturedClients] = useState<FeaturedClient[]>([]);
   const [selectedClient, setSelectedClient] = useState<Client | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -132,19 +138,22 @@ export default function ClientBentoSection() {
               description={client.description || `Exquisite food styling and culinary photography for ${client.name}`}
               Icon={client.logo ?
                 // Custom logo component
-                () => (
-                  <div className="w-24 h-24 rounded-full overflow-hidden bg-white/90 border-2 border-gray-200 flex items-center justify-center p-3 shadow-sm">
-                    <div className="relative w-full h-full">
-                      <Image
-                        src={client.logo}
-                        alt={`${client.name} logo`}
-                        fill
-                        className="object-contain"
-                        sizes="96px"
-                      />
+                () => {
+                  const logoSrc = client.logo || '';
+                  return (
+                    <div className="w-24 h-24 rounded-full overflow-hidden bg-white/90 border-2 border-gray-200 flex items-center justify-center p-3 shadow-sm">
+                      <div className="relative w-full h-full">
+                        <Image
+                          src={logoSrc}
+                          alt={`${client.name} logo`}
+                          fill
+                          className="object-contain"
+                          sizes="96px"
+                        />
+                      </div>
                     </div>
-                  </div>
-                ) :
+                  );
+                } :
                 // Default icon
                 client.icon
               }

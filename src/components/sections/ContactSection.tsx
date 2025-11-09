@@ -4,7 +4,7 @@ export default function ContactSection() {
       {/* Section Title */}
       <div className="container section-title" data-aos="fade-up">
         <h2>Contact</h2>
-        <p>Ready to bring your culinary vision to life? Let's discuss your next food styling project and create something truly mouth-watering together.</p>
+        <p>Ready to bring your culinary vision to life? Let&apos;s discuss your next food styling project and create something truly mouth-watering together.</p>
       </div>
 
       <div className="container" data-aos="fade" data-aos-delay="100">

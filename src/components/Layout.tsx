@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import Script from 'next/script';
+import Link from 'next/link';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -58,11 +59,11 @@ export default function Layout({ children, pageTitle = 'MyResume', pageClass = '
 
         <nav id="navmenu" className="navmenu">
           <ul>
-            <li><a href="/#hero" className="active"><i className="bi bi-house navicon"></i><span>Home</span></a></li>
-            <li><a href="/#about"><i className="bi bi-person navicon"></i><span>About</span></a></li>
-            <li><a href="/clients"><i className="bi bi-images navicon"></i><span>Clients</span></a></li>
-            <li><a href="/#services"><i className="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-            <li><a href="/#contact"><i className="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+            <li><Link href="/#hero" className="active"><i className="bi bi-house navicon"></i><span>Home</span></Link></li>
+            <li><Link href="/#about"><i className="bi bi-person navicon"></i><span>About</span></Link></li>
+            <li><Link href="/clients"><i className="bi bi-images navicon"></i><span>Clients</span></Link></li>
+            <li><Link href="/#services"><i className="bi bi-hdd-stack navicon"></i><span>Services</span></Link></li>
+            <li><Link href="/#contact"><i className="bi bi-envelope navicon"></i><span>Contact</span></Link></li>
           </ul>
         </nav>
       </header>
@@ -74,7 +75,7 @@ export default function Layout({ children, pageTitle = 'MyResume', pageClass = '
       <footer id="footer" className="footer position-relative light-background">
         <div className="container">
             <h3 className="sitename">Andrea Abi Khalil</h3>
-            <p>Creating mouth-watering visuals that tell a story. Let's bring your culinary vision to life through expert food styling and photography.</p>
+            <p>Creating mouth-watering visuals that tell a story. Let&apos;s bring your culinary vision to life through expert food styling and photography.</p>
           <div className="social-links d-flex justify-content-center">
             <a href=""><i className="bi bi-twitter-x"></i></a>
             <a href=""><i className="bi bi-facebook"></i></a>
