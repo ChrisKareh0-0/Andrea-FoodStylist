@@ -1,0 +1,108 @@
+{
+  "clients": [
+    {
+      "id": "burger-king",
+      "name": "Burger King",
+      "categories": [
+        "fast-food"
+      ],
+      "description": "Premium food styling and photography for global fast-food campaigns",
+      "logo": "/assets/img/client-logos/1762701754721-burger-king-logo-png_seeklogo-23687.png",
+      "gallery": [
+        "/assets/img/client-gallery/1762705086067-images.jpeg"
+      ]
+    },
+    {
+      "id": "kfc",
+      "name": "KFC",
+      "categories": [
+        "fast-food"
+      ],
+      "description": "Mouth-watering chicken presentations for regional marketing materials",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "mcdonalds",
+      "name": "Mcdonalds",
+      "categories": [
+        "fast-food"
+      ],
+      "description": "High-quality food styling for international menu launches",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "zaatar-w-zeit",
+      "name": "Zaatar W Zeit",
+      "categories": [
+        "restaurant"
+      ],
+      "description": "Authentic Lebanese cuisine presentation for restaurant branding",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "roadster",
+      "name": "Roadster",
+      "categories": [
+        "restaurant",
+        "cafe"
+      ],
+      "description": "American diner experience styling",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "patchi",
+      "name": "Patchi",
+      "categories": [
+        "chocolate"
+      ],
+      "description": "Elegant chocolate and confectionery styling for luxury brand campaigns",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "pepsi",
+      "name": "Pepsi",
+      "categories": [
+        "food-brand"
+      ],
+      "description": "Beverage photography and styling",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "al-abdallah",
+      "name": "Al Abdallah",
+      "categories": [
+        "bakery"
+      ],
+      "description": "Traditional Lebanese bakery presentations",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "casper-gambinis",
+      "name": "Casper & Gambinis",
+      "categories": [
+        "cafe",
+        "restaurant"
+      ],
+      "description": "Casual dining and cafe presentations",
+      "logo": null,
+      "gallery": []
+    },
+    {
+      "id": "mayrig",
+      "name": "Mayrig",
+      "categories": [
+        "restaurant"
+      ],
+      "description": "Armenian cuisine food styling",
+      "logo": null,
+      "gallery": []
+    }
+  ]
+}

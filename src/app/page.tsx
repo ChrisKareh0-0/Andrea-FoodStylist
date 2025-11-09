@@ -1,9 +1,9 @@
 import HeroSection from '@/components/sections/HeroSection';
+import ClientBentoSection from '@/components/sections/ClientBentoSection';
 import AboutSection from '@/components/sections/AboutSection';
 import StatsSection from '@/components/sections/StatsSection';
 import SkillsSection from '@/components/sections/SkillsSection';
 import ResumeSection from '@/components/sections/ResumeSection';
-import PortfolioSection from '@/components/sections/PortfolioSection';
 import ServicesSection from '@/components/sections/ServicesSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
 import ContactSection from '@/components/sections/ContactSection';
@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <Layout pageTitle="Index">
       <HeroSection />
-      <AboutSection />
+      <ClientBentoSection />
+      {/* <AboutSection /> */}
       {/* <StatsSection /> */}
       {/* <SkillsSection /> */}
       {/* <ResumeSection /> */}
-      <PortfolioSection />
       <ServicesSection />
       {/* <TestimonialsSection /> */}
       <ContactSection />
