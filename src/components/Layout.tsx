@@ -77,11 +77,13 @@ export default function Layout({ children, pageTitle = 'MyResume', pageClass = '
             <h3 className="sitename">Andrea Abi Khalil</h3>
             <p>Creating mouth-watering visuals that tell a story. Let&apos;s bring your culinary vision to life through expert food styling and photography.</p>
           <div className="social-links d-flex justify-content-center">
-            <a href=""><i className="bi bi-twitter-x"></i></a>
-            <a href=""><i className="bi bi-facebook"></i></a>
-            <a href=""><i className="bi bi-instagram"></i></a>
-            <a href=""><i className="bi bi-skype"></i></a>
-            <a href=""><i className="bi bi-linkedin"></i></a>
+            {/* <a href=""><i className="bi bi-twitter-x"></i></a>
+            <a href=""><i className="bi bi-facebook"></i></a> */}
+            <a href="https://www.instagram.com/andreafoodstyle?igsh=MWdxd3N4bTYzMmYwYQ=="><i className="bi bi-instagram"></i></a>
+            {/* <a href=""><i className="bi bi-skype"></i></a>
+            <a href=""><i className="bi bi-linkedin"></i></a> */}
+            <a href="https://www.tiktok.com/@andreafoodstyle?_r=1&_t=ZS-91XLmUNS62n"><i className="bi bi-tiktok"></i></a>
+
           </div>
           <div className="container">
             <div className="copyright">

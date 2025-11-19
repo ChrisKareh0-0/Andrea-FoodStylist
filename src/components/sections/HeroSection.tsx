@@ -20,10 +20,11 @@ export default function HeroSection() {
               <h2>Andrea Abi Khalil</h2>
               <p>I&apos;m a <span className="typed" data-typed-items="Food Stylist, Culinary Artist, Food Photographer, Recipe Developer"></span></p>
               <div className="social-links">
-                <a href="#"><i className="bi bi-twitter-x"></i></a>
-                <a href="#"><i className="bi bi-facebook"></i></a>
-                <a href="#"><i className="bi bi-instagram"></i></a>
-                <a href="#"><i className="bi bi-linkedin"></i></a>
+                {/* <a href="#"><i className="bi bi-twitter-x"></i></a> */}
+                {/* <a href="#"><i className="bi bi-facebook"></i></a> */}
+                <a href="https://www.instagram.com/andreafoodstyle?igsh=MWdxd3N4bTYzMmYwYQ=="><i className="bi bi-instagram"></i></a>
+                {/* <a href="#"><i className="bi bi-linkedin"></i></a> */}
+                <a href="https://www.tiktok.com/@andreafoodstyle?_r=1&_t=ZS-91XLmUNS62n"><i className="bi bi-tiktok"></i></a>
               </div>
               <div className="mt-4">
                 <a href="/clients" className="btn-view-clients">
