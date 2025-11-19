@@ -112,8 +112,17 @@ export default function ClientBentoSection() {
 
   if (loading) {
     return (
-      <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto max-w-7xl text-center">
+      <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+        {/* Background Pattern */}
+        <div
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage: "url('/assets/img/backgroundPattern.png')",
+            backgroundRepeat: 'repeat',
+            backgroundSize: 'auto',
+          }}
+        />
+        <div className="container mx-auto max-w-7xl text-center relative z-10">
           <p className="text-gray-600">Loading clients...</p>
         </div>
       </section>
@@ -121,8 +130,17 @@ export default function ClientBentoSection() {
   }
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
-      <div className="container mx-auto max-w-7xl">
+    <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+      {/* Background Pattern */}
+      <div
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: "url('/assets/img/backgroundPattern.png')",
+          backgroundRepeat: 'repeat',
+          backgroundSize: 'auto',
+        }}
+      />
+      <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Clients</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">

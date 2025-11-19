@@ -10,19 +10,19 @@ export default function ContactSection() {
       <div className="container" data-aos="fade" data-aos-delay="100">
         <div className="row gy-4">
           <div className="col-lg-4">
-            <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            {/* <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i className="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
                 <p>1234 Sunset Boulevard, Los Angeles, CA 90028</p>
               </div>
-            </div>
+            </div> */}
 
             <div className="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
               <i className="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Me</h3>
-                <p>+1 555 123 4567</p>
+                <p>+961 3 561 658</p>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ export default function ContactSection() {
               <i className="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Me</h3>
-                <p>andrea@andreamartinez.com</p>
+                <p>andreaabikhalil@gmail.com</p>
               </div>
             </div>
           </div>
